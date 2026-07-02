@@ -5,7 +5,7 @@ import av from "../public/av.jpeg";
 const WA_NUMBER = "919579239700";
 
 function sendToWhatsApp(data) {
-  const msg = `🔔 *New Lead - A V Technology Website*\n\n👤 *Name:* ${data.name}\n📧 *Email:* ${data.email || "—"}\n📱 *Phone:* ${data.phone}\n🛠️ *Service:* ${data.service}\n💬 *Message:* ${data.message || "—"}\n\n⏰ ${new Date().toLocaleString("en-IN")}`;
+  const msg = `🔔 *New Lead - AARTI JEWELLERS Website*\n\n👤 *Name:* ${data.name}\n📧 *Email:* ${data.email || "—"}\n📱 *Phone:* ${data.phone}\n🛠️ *Service:* ${data.service}\n💬 *Message:* ${data.message || "—"}\n\n⏰ ${new Date().toLocaleString("en-IN")}`;
   window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
 }
 
@@ -221,11 +221,11 @@ function Navbar({ openModal }) {
             boxShadow: "0 0 20px rgba(201,168,76,0.15)",
             flexShrink: 0,
           }}>
-            <img src={av} alt="AV Technology" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src={av} alt="AV JEWELLERS" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
           <div>
             <span style={{ fontFamily: "'Cormorant Garamond',serif", fontWeight: 700, fontSize: 20, color: "#f1f5f9", letterSpacing: "0.02em", display: "block", lineHeight: 1.1 }}>
-              A V <span style={{ color: "#C9A84C" }}>Technology</span>
+              AARTI<span style={{ color: "#C9A84C" }}>JEWELLERS</span>
             </span>
             <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 9, color: "#475569", letterSpacing: "0.15em", textTransform: "uppercase" }}>Business Automation</span>
           </div>
@@ -353,7 +353,7 @@ function Hero({ openModal }) {
           >
             Get Free Quote →
           </button>
-          <a href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi! I'd like to know more about A V Technology solutions.")}`} target="_blank" rel="noreferrer" style={{
+          <a href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi! I'd like to know more about AARTI JEWELLERS solutions.")}`} target="_blank" rel="noreferrer" style={{
             padding: "15px 36px", borderRadius: 12,
             border: "1px solid rgba(255,255,255,0.1)",
             background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.7)",
@@ -813,7 +813,7 @@ function WASection({ openModal }) {
 
 // ─── Testimonials ─────────────────────────────────────────────────────────────
 const TESTI = [
-  { name: "Ramesh Patel", role: "Owner, PatelMart Superstore", av: "RP", text: "A V Technology's ERP transformed our 5-branch retail chain. Real-time inventory and GST billing saved us 20+ hours per week. Incredible support team.", color: "#C9A84C" },
+  { name: "Ramesh Patel", role: "Owner, PatelMart Superstore", av: "RP", text: "AARTI JEWELLERS's ERP transformed our 5-branch retail chain. Real-time inventory and GST billing saved us 20+ hours per week. Incredible support team.", color: "#C9A84C" },
   { name: "Sunita Sharma", role: "Director, Sharma Distributors", av: "SS", text: "The WhatsApp marketing software is a game changer. Reached 12,000 customers in one afternoon without a single ban. Bulk roll pricing is unbeatable.", color: "#4ade80" },
   { name: "Ajay Mehta", role: "MD, Mehta Pharma Wholesale", av: "AM", text: "Thermal printers work flawlessly with the billing software. The compatibility matrix made ordering so simple. Zero downtime in 2 years of use.", color: "#a78bfa" },
   { name: "Priya Nair", role: "CEO, Kerala Textile Hub", av: "PN", text: "We process 500+ invoices daily with zero errors. Cloud sync keeps all 3 branches in sync. Best ROI investment we've made in a decade.", color: "#38bdf8" },
@@ -887,7 +887,7 @@ function ContactSection({ openModal }) {
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
               {[
                 { icon: "💬", l: "WhatsApp Direct", v: "+91 95792 39700", href: `https://wa.me/${WA_NUMBER}` },
-                { icon: "📧", l: "Email", v: "avtechnology07@gmail.com" },
+                { icon: "📧", l: "Email", v: "avJEWELLERS07@gmail.com" },
                 { icon: "📍", l: "Head Office", v: "Parshwanath Heights, Tilekar Nagar, Kondwa Bk., Pune - 411048" },
               ].map(c => (
                 <a key={c.l} href={c.href || "#"} target={c.href ? "_blank" : undefined} rel="noreferrer" style={{ display: "flex", alignItems: "flex-start", gap: 16, textDecoration: "none" }}>
@@ -960,10 +960,10 @@ function Footer({ openModal, setPage }) {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 18 }}>
               <div style={{ width: 40, height: 40, borderRadius: 11, overflow: "hidden", border: "1px solid rgba(201,168,76,0.25)", flexShrink: 0 }}>
-                <img src={av} alt="AV Technology" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src={av} alt="AV JEWELLERS" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
               <div>
-                <span style={{ fontFamily: "'Cormorant Garamond',serif", fontWeight: 700, fontSize: 18, color: "#f1f5f9", display: "block", lineHeight: 1.1 }}>A V <span style={{ color: "#C9A84C" }}>Technology</span></span>
+                <span style={{ fontFamily: "'Cormorant Garamond',serif", fontWeight: 700, fontSize: 18, color: "#f1f5f9", display: "block", lineHeight: 1.1 }}>AARTI<span style={{ color: "#C9A84C" }}>JEWELLERS</span></span>
                 <span style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 9, color: "#475569", letterSpacing: "0.12em", textTransform: "uppercase" }}>Business Automation</span>
               </div>
             </div>
@@ -1004,7 +1004,7 @@ function Footer({ openModal, setPage }) {
 
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <p style={{ fontFamily: "'DM Sans',sans-serif", fontSize: 12, color: "rgba(255,255,255,0.15)" }}>
-            © 2025 A V Technology. All rights reserved.
+            © 2025 AARTI JEWELLERS. All rights reserved.
           </p>
           <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
             <button onClick={() => setPage("privacy")} style={{ background: "none", border: "none", cursor: "pointer", color: "rgba(255,255,255,0.59)", fontSize: 12, fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s" }}
@@ -1025,7 +1025,7 @@ function WAFloat() {
   const [pulse, setPulse] = useState(true);
   useEffect(() => { const t = setTimeout(() => setPulse(false), 5000); return () => clearTimeout(t); }, []);
   return (
-    <a href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi! I'd like to know more about A V Technology solutions.")}`}
+    <a href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi! I'd like to know more about AARTI JEWELLERS solutions.")}`}
       target="_blank" rel="noreferrer"
       onMouseEnter={() => setHov(true)} onMouseLeave={() => setHov(false)}
       style={{
@@ -1093,7 +1093,7 @@ export default function App() {
   if (page === "privacy") {
     return (
       <StaticPage title="Privacy Policy" setPage={setPage}>
-        <p style={{ marginBottom: 20 }}>At A V Technology, we respect your privacy and are committed to protecting your personal information.</p>
+        <p style={{ marginBottom: 20 }}>At AARTI JEWELLERS, we respect your privacy and are committed to protecting your personal information.</p>
         <h2 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 26, color: "#C9A84C", marginBottom: 12 }}>Information We Collect</h2>
         <p style={{ marginBottom: 20 }}>Name, email, phone number and business details submitted through our website.</p>
         <h2 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 26, color: "#C9A84C", marginBottom: 12 }}>How We Use Information</h2>
@@ -1105,11 +1105,11 @@ export default function App() {
   if (page === "terms") {
     return (
       <StaticPage title="Terms & Conditions" setPage={setPage}>
-        <p style={{ marginBottom: 20 }}>By using A V Technology services, you agree to our terms and conditions.</p>
+        <p style={{ marginBottom: 20 }}>By using AARTI JEWELLERS services, you agree to our terms and conditions.</p>
         <h2 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 26, color: "#C9A84C", marginBottom: 12 }}>Services</h2>
         <p style={{ marginBottom: 20 }}>We provide ERP software, billing software, WhatsApp marketing, barcode printers, computer sales and related business solutions.</p>
         <h2 style={{ fontFamily: "'Cormorant Garamond',serif", fontSize: 26, color: "#C9A84C", marginBottom: 12 }}>Limitation of Liability</h2>
-        <p>A V Technology shall not be liable for indirect or consequential damages arising from the use of our services.</p>
+        <p>AARTI JEWELLERS shall not be liable for indirect or consequential damages arising from the use of our services.</p>
       </StaticPage>
     );
   }
